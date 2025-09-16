@@ -1,0 +1,14 @@
+#pragma once
+
+#define MASTER_LEFT
+
+#define VIAL_KEYBOARD_UID {0xBA, 0x38, 0x22, 0x3F, 0x8C, 0x42, 0x0F, 0x44}
+
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+#define NO_ACTION_ONESHOT
+#define NO_ACTION_TAPPING
+#define NO_MUSIC_MODE
+
+#define BOOTMAGIC_ROW 0
+#define BOOTMAGIC_COLUMN 1
